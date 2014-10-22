@@ -4,7 +4,7 @@
 # Usage: `brew bundle Brewfile`
 
 # Make sure we’re using the latest Homebrew
-update
+brew update
 
 fancy_echo() {
   printf "\n%b\n" "$1"
@@ -13,7 +13,7 @@ fancy_echo() {
 brew tap caskroom/cask
 
 # Upgrade any already-installed formulae
-upgrade
+brew upgrade
 
 brew install brew-cask
 
